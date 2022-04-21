@@ -1,0 +1,116 @@
+
+
+body{
+    text-align: center;
+    background-color: hsl(218, 28%, 13%);
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    @font-face {
+        font-family: Open Sans;
+        src: url( https://fonts.google.com/specimen/Open+Sans );
+    }
+    font-weight: 400, 700;
+
+}
+
+header{
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: hsl(218, 28%, 13%);
+    color:hsl(0, 0%, 100%);
+    width:100%;
+    padding: 10px;
+    
+}
+
+nav{
+    margin-top: 25px;
+}
+
+nav a:visited,
+nav a:link{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav > ul{
+    display: inline;
+}
+
+nav > ul > li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 3em 10px 3em;
+}
+
+main{
+    padding: 6em;
+    margin-top: 4em;
+}
+
+footer{
+    display:block;
+    color:hsl(0, 0%, 100%);
+    width:100%;
+    padding: 10px;
+    background-color: hsl(216, 53%, 9%)
+}
+
+footer > section > div > ul {
+    display: inline;
+    padding: 1.5em;
+}
+
+footer > section > div > ul > li {
+    list-style: none;
+    margin: 0 5px 0 5px;
+    padding: 1em;
+}
+
+.testimonial{
+    background-color: hsl(219, 30%, 18%);
+}
+
+h2, header, #form {
+    @font-face {
+        font-family: Raleway;
+        src: url(https://fonts.google.com/specimen/Raleway);
+    }
+    font-weight: 400, 700;
+}
+
+#form {
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    width: 60%;
+    padding: 2em;
+    height: fit-content;
+    border-radius: 10%;
+}
+
+#list1{
+    float: left;
+}
+
+#list2 {
+    text-align: center;
+}
+
+#list3{
+    float: right;
+}
+
+#logo1{
+    float: left;
+}
+
+.icons {
+    width: 3.5%;
+    padding: 2em;
+}
+
+.testimonial{
+    border-radius: 15%;
+}
